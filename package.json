@@ -1,7 +1,7 @@
 {
   "name": "blogproject",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "blog project",
   "author": "mating <474200880@qq.com>",
   "private": true,
   "scripts": {
@@ -11,7 +11,17 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "axios": "^0.19.1",
+    "crypto-js": "^3.1.9-1",
+    "css": "^2.2.4",
+    "dayjs": "^1.8.19",
+    "element-ui": "^2.13.0",
+    "js-cookie": "^2.2.1",
+    "nprogress": "^0.2.0",
+    "vue-axios": "^2.1.5",
+    "vue-i18n": "^8.15.3",
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -48,7 +58,9 @@
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0"
   },
   "engines": {
     "node": ">= 6.0.0",
