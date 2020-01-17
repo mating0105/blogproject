@@ -6,8 +6,10 @@ import router from './router'
 
 import Element from 'element-ui'
 import i18n from '@/lang'
+import store from './store'
 
 import '../static/css/index.css' // 初始化基础样式
+import '@/assets/iconfont/iconfont.css'//全局引用iconfont
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(Element, {
     size: 'medium',
@@ -23,6 +25,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   i18n,
   components: { App },
   template: '<App/>'
