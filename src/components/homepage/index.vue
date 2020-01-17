@@ -6,15 +6,13 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: '',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '哈哈'
     }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 </style>
