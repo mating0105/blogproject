@@ -114,8 +114,8 @@ export default {
     border:1px solid #ccc;
     border-radius: 10px;
     box-shadow:2px 5px 10px #666;
-    background-color: rgba(64,158,255,0.1);
-    
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
 }
 .loginform>.el-form{
     width: 100%;
